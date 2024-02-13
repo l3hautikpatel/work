@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@font-face {
+    font-family: kajiro;
+    src: url(assesets/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url(assesets/Gilroy-Light.otf);
+}
+
+@font-face {
+    font-family: gilroy-bold;
+    src: url(assesets/Gilroy-ExtraBold.otf);
+}
+
+.main {
+    width: 100%;
+}
+
+.page1 {
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(219, 102, 102); */
+}
+
+.nav {
+    /* background-color: rgba(197, 250, 232, 0.452); */
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15vw;
+    padding-top: 1vh;
+}
+
+.nav img {
+    height: 10vh;
+    padding-right: 2.5vw;
+    filter: contrast(1000);
+}
+
+.navleft,
+.navright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+}
+
+.nav a {
+    pointer-events: all;
+    text-decoration: none;
+    color: #000;
+    font-size: 3vh;
+    transition: all ease 0.1s;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid white;
+
+}
+
+.activePage {
+    transition: all ease 0.1s;
+    border-bottom: 2px solid white;
+}
+
+.page1 .back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page1 .back img {
+    object-fit: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    filter: brightness(0.6);
+}
+
+.page1 .front {
+    pointer-events: none;
+    height: 100vh;
+}
+
+
+.hero {
+    position: relative;
+    top: 45%;
+    transform: translateY(-50%);
+    padding: 1vh 10vw;
+    /* background-color: black; */
+    color: #000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10vw;
+}
+
+
+
+.heroleft{
+    position: relative;
+    padding: 10vh 0vh;
+    min-width: 50%;
+}
+
+.heroleft .h1s{
+    position: relative;
+    height: 11vh;
+    width: 110%;
+    overflow: hidden;
+}
+
+.heroleft .h1s h1:nth-child(1){
+    top: 0%;
+}
+.heroleft .h1s h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: .8;
+    font-size: 13vh;
+    margin: 1vh 0;
+    font-family: "kajiro";
+    font-weight: 100;
+}
+
+.heroleft button {
+    margin-top: 5vh;
+    height: 7vh;
+    pointer-events: all;
+    width: 30%;
+    font-size: 23px;
+    background: rgba(97, 77, 77, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(97, 77, 77, 0.15);
+    transition: all ease 0.09s;
+}
+
+.heroleft button:hover {
+    background: rgba(4, 0, 0, 0.34);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(4, 0, 0, 0.3);
+}
+
+.heroright {
+    width: 30vw;
+    /* background-color: yellowgreen; */
+    background: rgba(97, 77, 77, 0.22);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);
+    border: 1px solid rgba(97, 77, 77, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4vh;
+    padding: 2vh 0;
+    flex-direction: column;
+}
+
+.heroright p {
+    width: 80%;
+    font-family: kajiro;
+    font-size: 20px;
+}
+
+.heroright img {
+    height: 25vh;
+    object-fit: cover;
+    border-radius: 10px;
+}
