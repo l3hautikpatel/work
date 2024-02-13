@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+
+.black {
+    color: #000;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.page1 {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    padding: 0 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 23px;
+    border-bottom: 2px solid #dadada;
+    height: 80px;
+}
+
+.nav h4 span {
+    font-weight: 1000;
+    font-size: 40px;
+    color: hsl(167.29deg 100% 39.8%);
+}
+
+.nav h4 {
+    font-size: 26px;
+    font-weight: 150;
+}
+
+.navPart2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 50px;
+}
+
+.navPart2 h3 {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.navPart3 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+
+}
+
+.navPart3 h3 {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.navPart3 span {
+    border-radius: 50%;
+    border: 1px solid #dadada;
+    padding: 5px 8px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+
+}
+
+.container1 .left {
+    /* background-color: blue; */
+    width: 50%;
+    height: 500px;
+    margin-right: 40px;
+}
+
+.container1 .left .upper {
+    padding-top: 30px;
+}
+
+.container1 .left .upper h4 {
+    font-size: 90px;
+    font-weight: 200;
+    line-height: 100px;
+}
+
+.container1 .left h4 img {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border: 5px solid #000;
+    border-radius: 50%;
+    /* margin-left: 5px; */
+}
+
+.container1 .profileP1 {
+    /* transform: translateX(-30px); */
+    margin-left: -45px;
+}
+
+.container1 .profileP2 {
+    /* transform: translateX(-60px); */
+    margin-left: -45px;
+}
+
+.container1 .left .lower {
+    border-top: 2px solid #dadada;
+    margin-top: 30px;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container1 .left .lower h3 {
+    font-weight: 200;
+    font-size: 21px;
+    color: #dadada;
+}
+
+
+
+.container1 .right {
+    /* background-color: darkgreen; */
+    color: #000;
+    width: 50%;
+    height: 500px;
+    padding: 30px;
+}
+
+.container1 .right>img {
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 20px;
+    opacity: 0.8;
+    border-top-right-radius: 75px;
+}
+
+.container1 .right .upper {
+    margin-top: -400px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 10;
+    line-height: 23px;
+}
+
+.container1 .right .upper .topRight {
+    background-color: #000;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -130px;
+    font-size: 30px;
+    font-weight: 10;
+    border-bottom-left-radius: 25px;
+}
+
+.container1 .right .lower {
+    position: relative;
+    height: 50px;
+    border: 2px solid #000;
+    border-radius: 100px;
+    margin: 0 30px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 23px;
+    margin-top: 45%;
+    background-color: #000;
+}
+
+.container1 .right .lower .arrow {
+    background-color: #fff;
+    color: #000;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.page2 {
+    background: #000;
+    height: 100%;
+    width: 100%;
+    padding: 200px 40px;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container2 .left {
+    /* background-color: blueviolet; */
+    width: 25%;
+    height: 300px;
+}
+
+.box1 {
+    padding-left: 23px;
+    padding-top: 23px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box1 .box1top {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 23px;
+}
+
+.box1top h3 {
+    color: #000;
+    font-size: 12px;
+    background-color: #fff;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1top h4 {
+    color: #dadada;
+}
+
+.box1 .box1down {
+    padding-top: 100px;
+    width: auto;
+}
+
+.box1down h3 {
+    border: 2px solid #dadada;
+    color: #dadada;
+    border-radius: 20px;
+    padding: 3px 12px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    width: 230px;
+}
+
+.container2 .right {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 80%;
+    margin-right: 35px;
+}
+
+.box {
+    height: 300px;
+    width: 28%;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.box .tag {
+    height: 60px;
+    width: 120px;
+    /* border: 2px solid white; */
+    border-radius: 25px;
+    position: relative;
+    top: -15px;
+    right: -143px;
+    /* background-color: rgb(253 94 9); */
+}
+
+.box2 {
+    background-color: rgb(253 94 9);
+}
+
+.box2>.tag {
+    right: -144px;
+    background-color: rgb(253 94 9);
+}
+
+.box3 {
+    background-color: rgb(224 224 224);
+
+}
+
+.box3>.tag {
+    background-color: rgb(224 224 224);
+}
+
+.box4 {
+    background-color: rgb(227 181 80);
+
+}
+
+.box4>.tag {
+    background-color: rgb(227 181 80);
+}
+
+
+.box2 h3 {
+    margin-left: 23px;
+    font-weight: 200;
+}
+.box3 .up{
+    margin-left: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50px;
+    transform: translateY(-40px);
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.box3>h3{
+    margin-left: 23px;
+    padding-top: 85px;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.box4 .up{
+    font-weight: 100;
+    margin-left: 23px;
+}
+
+.box4 .down{
+    margin-left: 23px;
+    padding-top: 85px;
+    font-weight: 100;
+    font-size: 75px;
+}
